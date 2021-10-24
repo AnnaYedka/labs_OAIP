@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(task_2_17 lab_2/task_2_17.cpp)
 add_executable(task_2_16 lab_2/task_2_16.cpp)
+add_executable(task_2_15 lab_2/task_2_15.cpp)
