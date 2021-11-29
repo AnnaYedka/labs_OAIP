@@ -25,7 +25,7 @@ int main() {
             break;
         default:
             result = pow(a + b, 3);
-            break;
+
     }
     cout << "Result : " << result << "\n";
 

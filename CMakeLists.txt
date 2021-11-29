@@ -33,3 +33,38 @@ add_executable(task_3_6 lab_3/task_3_6.cpp)
 add_executable(task_3_7 lab_3/task_3_7.cpp)
 add_executable(task_3_8 lab_3/task_3_8.cpp)
 add_executable(task_3_9 lab_3/task_3_9.cpp)
+
+add_executable(task-4.1 lab_4/task-4.1.cpp)
+add_executable(task-4.2 lab_4/task-4.2.cpp)
+add_executable(task-4.3 lab_4/task-4.3.cpp)
+add_executable(task-4.4 lab_4/task-4.4.cpp)
+add_executable(task-4.5 lab_4/task-4.5.cpp)
+add_executable(task-4.6 lab_4/task-4.6.cpp)
+add_executable(task-4.7 lab_4/task-4.7.cpp)
+add_executable(task-4.8 lab_4/task-4.8.cpp)
+add_executable(task-4.9 lab_4/task-4.9.cpp)
+add_executable(task-4.10 lab_4/task-4.10.cpp)
+add_executable(task-4.11 lab_4/task-4.11.cpp)
+add_executable(task-4.12 lab_4/task-4.12.cpp)
+add_executable(task-4.13 lab_4/task-4.13.cpp)
+add_executable(task-4.14 lab_4/task-4.14.cpp)
+add_executable(task-4.15 lab_4/task-4.15.cpp)
+
+
+add_executable(task-5.1 lab_5/task-5.1.cpp)
+add_executable(task-5.2 lab_5/task-5.2.cpp)
+
+#static library
+add_library(static_lib STATIC lab_5/lib_source/static_lib.cpp  lab_5/lib_source/static_lib.h lab_5/lib_source/dynamic_lib.h lab_5/lib_source/dynamic_lib.cpp)
+find_library(S_LIB static_lib lab_5/lib)
+target_link_libraries(task-5.1 LINK_PUBLIC ${S_LIB})
+
+#dynamic library
+add_library(dynamic_lib SHARED lab_5/lib_source/dynamic_lib.cpp)
+find_library(D_LIB dynamic_lib lab_5/lib)
+target_link_libraries(task-5.2 LINK_PUBLIC ${D_LIB})
+
+add_executable(task-5.3.1 lab_5/task-5.3.1.cpp)
+add_executable(task-5.3.2 lab_5/task-5.3.2.cpp)
+add_executable(task-5.3.3 lab_5/task-5.3.3.cpp)
+
