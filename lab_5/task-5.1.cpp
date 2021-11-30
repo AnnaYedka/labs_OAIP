@@ -4,6 +4,7 @@
 // static library is used in this task, code of the library is in directory "lib_source"
 //
 
+
 #include <iostream>
 #include "lib_source/static_lib.h"
 
