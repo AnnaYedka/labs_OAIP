@@ -7,7 +7,6 @@
 #include <iostream>
 #include "lib_source/dynamic_lib.h"
 
-
 int main(){
     std::cout << "The program will find the amount of element in array which meet the condition: cos(a^2) > 0 and a < 0\n";
     std::cout << "Enter the size of array: \n";
