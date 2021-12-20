@@ -51,7 +51,7 @@ add_executable(task-4.14 lab_4/task-4.14.cpp)
 add_executable(task-4.15 lab_4/task-4.15.cpp)
 
 
-add_executable(task-5.1 lab_5/task-5.1.cpp lab_5/task-5.3_additional.cpp)
+add_executable(task-5.1 lab_5/task-5.1.cpp)
 add_executable(task-5.2 lab_5/task-5.2.cpp)
 
 #static library
@@ -71,3 +71,13 @@ add_executable(task-5.3.3 lab_5/task-5.3.3.cpp)
 add_executable(task-5.1_add lab_5/task-5.1_additional.cpp)
 add_executable(task-5.2_add lab_5/task-5.2_additional.cpp)
 add_executable(task-5.3_add lab_5/task-5.3_additional.cpp)
+
+add_executable(task-6.1 lab_6/task-6.1.cpp)
+add_executable(task-6.2 lab_6/task-6.2.cpp)
+add_executable(task-6.3 lab_6/task-6.3.cpp)
+add_executable(task-6.4 lab_6/task-6.4.cpp)
+add_executable(task-6.5 lab_6/task-6.5.cpp)
+add_executable(task-6.6 lab_6/task-6.6.cpp)
+add_executable(task-6.7 lab_6/task-6.7.cpp)
+add_executable(task-6.8 lab_6/task-6.8.cpp)
+add_executable(task-6.9 lab_6/task-6.9.cpp)
