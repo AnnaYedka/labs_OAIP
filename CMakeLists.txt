@@ -60,7 +60,7 @@ find_library(S_LIB static_lib lab_5/lib)
 target_link_libraries(task-5.1 LINK_PUBLIC ${S_LIB})
 
 #dynamic library
-add_library(dynamic_lib SHARED lab_5/lib_source/dynamic_lib.cpp)
+add_library(dynamic_lib SHARED lab_5/lib_source/dynamic_lib.cpp lab_8/task-8.1.cpp lab_8/task-8.2.cpp)
 find_library(D_LIB dynamic_lib lab_5/lib)
 target_link_libraries(task-5.2 LINK_PUBLIC ${D_LIB})
 
@@ -81,3 +81,16 @@ add_executable(task-6.6 lab_6/task-6.6.cpp)
 add_executable(task-6.7 lab_6/task-6.7.cpp)
 add_executable(task-6.8 lab_6/task-6.8.cpp)
 add_executable(task-6.9 lab_6/task-6.9.cpp)
+
+add_executable(task-7.1 lab_7/task-7.1.cpp)
+add_executable(task-7.2 lab_7/task-7.2.cpp)
+add_executable(task-7.3 lab_7/task-7.3.cpp)
+add_executable(task-7.4 lab_7/task-7.4.cpp)
+add_executable(task-7.5 lab_7/task-7.5.cpp)
+add_executable(task-7.6 lab_7/task-7.6.cpp)
+add_executable(task-7.7 lab_7/task-7.7.cpp)
+add_executable(task-7.8 lab_7/task-7.8.cpp)
+add_executable(task-7.9 lab_7/task-7.9.cpp)
+
+add_executable(task-8.1 lab_8/task-8.1.cpp)
+add_executable(task-8.2 lab_8/task-8.2.cpp)
